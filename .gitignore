@@ -6,3 +6,6 @@ src/example_package_hahattpro.egg-info/SOURCES.txt
 src/example_package_hahattpro.egg-info/top_level.txt
 dist/example_package_hahattpro-0.0.3-py3-none-any.whl
 dist/example_package_hahattpro-0.0.3.tar.gz
+dist/example_package_hahattpro-0.0.5-py3-none-any.whl
+dist/example_package_hahattpro-0.0.5.tar.gz
+dist/*

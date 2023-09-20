@@ -27,4 +27,5 @@ namespaces = true
 where = ["src"]
 
 [tool.setuptools.package-data]
-example_package_hahattpro.template = ["*.txt", "*.rst"]
+example_package_hahattpro = ["*.txt", "*.rst"]
+"example_package_hahattpro.template" = ["*.txt"]

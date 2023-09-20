@@ -4,3 +4,5 @@ src/example_package_hahattpro.egg-info/dependency_links.txt
 src/example_package_hahattpro.egg-info/PKG-INFO
 src/example_package_hahattpro.egg-info/SOURCES.txt
 src/example_package_hahattpro.egg-info/top_level.txt
+dist/example_package_hahattpro-0.0.3-py3-none-any.whl
+dist/example_package_hahattpro-0.0.3.tar.gz

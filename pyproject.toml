@@ -5,13 +5,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "example_package_hahattpro"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Thai Thien", email="tt@example.com" },
 ]
 description = "A small example package"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -21,3 +21,10 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/ttpro1995/example_package_hahattpro"
 "Bug Tracker" = "https://github.com/ttpro1995/example_package_hahattpro/issues"
+
+[tool.setuptools.packages.find]
+namespaces = true
+where = ["src"]
+
+[tool.setuptools.package-data]
+example_package_hahattpro.template = ["*.txt", "*.rst"]

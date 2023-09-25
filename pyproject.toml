@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0", "Jinja2>=3"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 
@@ -31,3 +31,8 @@ include = ["example_package_hahattpro*"]
 [tool.setuptools.package-data]
 example_package_hahattpro = ["*.txt", "*.rst"]
 "example_package_hahattpro.template" = ["*.txt"]
+
+
+dependencies = [
+    "Jinja2 >= 3"
+]

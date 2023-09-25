@@ -8,7 +8,7 @@ twine upload --repository testpypi dist/*
 
 # How to install 
 ```
-pip install -i https://test.pypi.org/simple/ --no-cache-dir --force-reinstall -U example-package-hahattpro==0.0.4
+pip install -i https://test.pypi.org/simple/ --no-cache-dir --force-reinstall -U example-package-hahattpro
 ```
 
 

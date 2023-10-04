@@ -14,3 +14,6 @@ pip install -i https://test.pypi.org/simple/ --no-cache-dir --force-reinstall -U
 
 # How to add extra data 
 
+[tool.setuptools.package-data]
+example_package_hahattpro = ["*.txt", "*.rst"]
+"example_package_hahattpro.template" = ["*.txt"]

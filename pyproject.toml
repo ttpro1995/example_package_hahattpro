@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "example_package_hahattpro"
-version = "0.0.8.dev3"
+version = "0.0.10"
 authors = [
   { name="Thai Thien", email="tt@example.com" },
 ]
@@ -31,6 +31,7 @@ include = ["example_package_hahattpro*"]
 [tool.setuptools.package-data]
 example_package_hahattpro = ["*.txt", "*.rst"]
 "example_package_hahattpro.template" = ["*.txt"]
+"example_package_hahattpro.code_sample" = ["*.py"]
 
 
 dependencies = [
